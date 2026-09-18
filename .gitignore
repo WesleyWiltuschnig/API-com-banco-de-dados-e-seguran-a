@@ -1,0 +1,65 @@
+### Build Maven ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties.bak
+
+### Build Gradle (caso o projeto seja migrado) ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### Compilados Java ###
+*.class
+*.jar
+*.war
+*.ear
+!.mvn/wrapper/maven-wrapper.jar
+hs_err_pid*
+replay_pid*
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### Eclipse / STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+
+### VS Code ###
+.vscode/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Logs e temporarios ###
+*.log
+logs/
+*.tmp
+*.bak
+
+### Credenciais e configuracoes locais (NUNCA versionar) ###
+.env
+.env.local
+src/main/resources/application-local.properties
+src/main/resources/application-dev.properties
+src/main/resources/application-prod.properties
+
+### Sistema operacional ###
+.DS_Store
+Thumbs.db
